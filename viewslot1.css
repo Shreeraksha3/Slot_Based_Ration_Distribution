@@ -1,0 +1,157 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #162951; 
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101c28;
+    padding: 10px 20px;
+    border-bottom: 2px solid #34495e; 
+    color: white;
+}
+
+.logout-button {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background-color: #c0392b;
+}
+
+
+.content-wrapper {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #0f263e;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.sidebar .menu-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background: none;
+    text-align: left;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sidebar .menu-btn.active,
+.sidebar .menu-btn:hover {
+    background-color: #34495e; 
+}
+
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f5f2ef; 
+    color: #333;
+    overflow-x: auto;
+}
+
+.page-title {
+    font-size: 24px;
+    color: #162951; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.table-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+thead {
+    background-color: #162951;
+    color: rgb(243, 238, 238);
+}
+
+thead th {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1eceb;
+}
+
+tbody td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    color: #000000;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.update, .delete {
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.update i, .delete i {
+    margin-right: 5px;
+}
+
+.update{
+    background-color: #218838; 
+    color:white;
+    border:none;
+    border-radius: 7px;
+}
+
+ .update:hover {
+    background-color: #218838;
+}
+
+.delete {
+    background-color: #e74c3c;
+   color:white;
+   border:none;
+   border-radius: 7px;
+ }
+
+.delete:hover {
+    background-color: #c0392b;
+} 

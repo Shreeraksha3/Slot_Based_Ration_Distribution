@@ -1,0 +1,133 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #162951; 
+    color: #ffffff; 
+}
+
+
+.top-header {
+    background-color: #101c28; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.logout-button {
+    background-color: #e74c3c; 
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.85em;
+}
+
+.logout-button:hover {
+    background-color: #c0392b; 
+}
+
+
+.sidebar {
+    background-color: #0f263e; 
+    width: 200px;
+    height: 100vh;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu-btn {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-btn:hover,
+.menu-btn.active {
+    background-color: #34495e; 
+    color: #ffffff;
+}
+.content {
+    background-color: white;
+    color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 900px; 
+    width: 100%; 
+    margin: 0 auto;
+}
+
+.main-content {
+    margin-left: 200px; /* Width of the sidebar */
+    padding: 10px;
+    text-align: center; 
+    color: #000000; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 90%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #162951; 
+    color: #ffffff;
+}
+
+td {
+    background-color: #f4f4f4;
+}
+
+button {
+    background-color: #e74c3c; 
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #c0392b; 
+}
+
+
+.alert-message {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e74c3c; 
+    color: #ffffff;
+    text-align: center;
+    border-radius: 4px;
+}

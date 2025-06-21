@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">                                  
+  <title>Login Page</title>
+  <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+  <div class="container">
+
+    <header class="top-header">
+      <div class="header-title">Ration Distribution System</div>
+    </header>
+
+   
+    <div class="form-container">
+      <form id="login-form" style="display: block;">
+        <h2>Admin Login</h2>
+        <div class="input-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" placeholder="Enter username" required />
+        </div>
+        <div class="input-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required />
+        </div>
+        <button type="submit" class="login-btn">Login</button>
+        <p>
+          Don't have an account? 
+          <a href="#" id="create-account-link">Create Account</a>
+        </p>
+      </form>
+
+      <!-- Create Account Form -->
+      <form id="create-account-form" style="display: none;">
+        <h2>Create Account</h2>
+        <div class="input-group">
+          <label for="new-username">Username</label>
+          <input type="text" id="new-username" name="new-username" placeholder="Enter username" required />
+        </div>
+        <div class="input-group">
+          <label for="new-password">Password</label>
+          <input type="password" id="new-password" name="new-password" placeholder="Enter password" required />
+        </div>
+        <div class="input-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm password" required />
+        </div>
+        <button type="submit" class="login-btn">Create Account</button>
+        <p>
+          Already have an account? 
+          <a href="#" id="login-link">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+
+  <script src="login2.js"></script>
+</body>
+</html>

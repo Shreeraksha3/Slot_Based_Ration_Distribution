@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #162951; 
+    color: white;
+}
+
+
+.top-header {
+    background-color: #101c28; 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #34495e; 
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.logout-button {
+    padding: 10px 15px;
+    background-color: #e74c3c; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+    background-color: #c0392b; 
+}
+
+
+.content-wrapper {
+    display: flex;
+}
+
+.sidebar {
+    background-color: #0f263e; 
+    width: 200px;
+    height: 112vh;
+    padding-top: 20px;
+}
+
+.menu-btn {
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-btn:hover,
+.menu-btn.active {
+    background-color: #34495e; 
+}
+
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content {
+    background-color: white;
+    color: #333; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    max-width: 900px; 
+    width: 60%; 
+    margin: 0 auto;
+}
+
+.content h2 {
+    font-size: 24px;
+    color: #162951; 
+    margin-bottom: 20px;
+    
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-size: 18px;
+    color: #162951; 
+}
+
+form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input:focus {
+    border-color: #34495e;
+    box-shadow: 0 0 5px rgba(52, 73, 94, 0.5);
+}
+
+form button {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #c0392b;
+}

@@ -87,7 +87,7 @@ The system allows administrators to:
 - Access the application in your browser:
   ```bash
   http://localhost/<project-folder>
-```
+
 ---
 
 ## 📈 Future Enhancements
@@ -98,5 +98,6 @@ The system allows administrators to:
 - Offline admin functionality for low-connectivity areas
 - Multi-language support
 - Advanced analytics dashboard
+
 
 

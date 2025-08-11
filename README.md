@@ -1,4 +1,5 @@
-# Queue Free Ration Distribution and Management System
+# 🍚 Queue Free Ration Distribution and Management System
+
 
 ## 📌 Overview
 This project is a **web-based application** designed to streamline the ration distribution process at **fair price shops**.  
@@ -98,6 +99,7 @@ The system allows administrators to:
 - Offline admin functionality for low-connectivity areas
 - Multi-language support
 - Advanced analytics dashboard
+
 
 
 

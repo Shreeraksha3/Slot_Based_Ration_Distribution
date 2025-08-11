@@ -60,11 +60,11 @@ The system allows administrators to:
 ---
 
 ## 📂 Project Structure
-- ├── /frontend # HTML, CSS, JS files
-- ├── /backend # PHP scripts for slot creation, allocation, and SMS
-- ├── /database # SQL scripts for database setup
-- ├── /docs # Project documentation & diagrams
-- └── README.md
+- 📁 /frontend # 🌐 HTML, 🎨 CSS, ⚡ JavaScript files
+- 📁 /backend # 🐘 PHP scripts for slot creation, allocation, and SMS
+- 📁 /database # 🗄️ SQL scripts for database setup
+- 📁 /docs # 📄 Project documentation & diagrams
+- 📄 README.md # 📝 Project readme file
 
 
 ---
@@ -98,6 +98,7 @@ The system allows administrators to:
 - Offline admin functionality for low-connectivity areas
 - Multi-language support
 - Advanced analytics dashboard
+
 
 
 

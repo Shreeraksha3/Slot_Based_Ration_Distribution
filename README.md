@@ -73,8 +73,8 @@ The system allows administrators to:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/<repo-name>.git
-   cd <repo-name>
+    git clone https://github.com/Shreeraksha3/Slot_Based_Ration_Distribution.git
+    cd Slot_Based_Ration_Distribution
 2. **Set up Database**
 - Create a MySQL database
 - Import the provided .sql file from /database
@@ -89,6 +89,7 @@ The system allows administrators to:
   http://localhost/<project-folder>
 ```
 ---
+
 ## 📈 Future Enhancements
 - Access the application in your browser:
 - Mobile application for both admins and beneficiaries
@@ -97,4 +98,5 @@ The system allows administrators to:
 - Offline admin functionality for low-connectivity areas
 - Multi-language support
 - Advanced analytics dashboard
+
 

@@ -60,11 +60,11 @@ The system allows administrators to:
 ---
 
 ## 📂 Project Structure
-├── /frontend # HTML, CSS, JS files
-├── /backend # PHP scripts for slot creation, allocation, and SMS
-├── /database # SQL scripts for database setup
-├── /docs # Project documentation & diagrams
-└── README.md
+- ├── /frontend # HTML, CSS, JS files
+- ├── /backend # PHP scripts for slot creation, allocation, and SMS
+- ├── /database # SQL scripts for database setup
+- ├── /docs # Project documentation & diagrams
+- └── README.md
 
 
 ---
@@ -88,10 +88,13 @@ The system allows administrators to:
   ```bash
   http://localhost/<project-folder>
 ```
-### 📈 Future Enhancements
+---
+## 📈 Future Enhancements
+- Access the application in your browser:
 - Mobile application for both admins and beneficiaries
 - Aadhaar-based biometric authentication
 - AI-powered slot prediction
 - Offline admin functionality for low-connectivity areas
 - Multi-language support
 - Advanced analytics dashboard
+

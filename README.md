@@ -27,17 +27,16 @@ The system allows administrators to:
 ---
 
 ## 🛠️ Tech Stack
-**Frontend:**
-- HTML5, CSS3, JavaScript, Bootstrap  
 
-**Backend:**
-- PHP 7.4+  
-- MySQL 8.0+  
+### **Technologies Used**
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
 
-**Other Tools & Services:**
-- Apache/Nginx Web Server  
-- Twilio SMS API  
-- phpMyAdmin/MySQL Workbench  
 
 ---
 
@@ -99,6 +98,7 @@ The system allows administrators to:
 - Offline admin functionality for low-connectivity areas
 - Multi-language support
 - Advanced analytics dashboard
+
 
 
 
